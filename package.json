@@ -1,0 +1,51 @@
+{
+  "name": "nai",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.17",
+    "@ffprobe-installer/ffprobe": "^1.0.10",
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
+    "apollo-boost": "^0.4.3",
+    "audioconcat": "^0.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "express-graphql": "^0.8.0",
+    "ffmetadata": "^1.5.0",
+    "ffmpeg-binaries": "^4.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "material-design-icons": "^3.0.1",
+    "media-split": "^5.0.0",
+    "node-id3": "^0.1.7",
+    "node-internet-radio": "^0.1.6",
+    "notistack": "^0.8.9",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "react-window": "^1.8.5",
+    "rimraf": "^3.0.0",
+    "sanitize-filename": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "Nora archiver interface"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
