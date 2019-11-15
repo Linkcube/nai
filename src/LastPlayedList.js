@@ -38,8 +38,8 @@ const LastPlayed = () => (
       {({loading, error, data, startPolling, stopPolling}) => {
         if (loading) return <p>...</p>;
         if (error) return <p/>;
+        if (Object.entries(data).length === 0) return <div/>
         const api = data.api;
-        if (api.lp === null) return <div />;
         const list = api.lp.map( (lp, index) => <Song data={lp} index={index} ct={api.current_time} key={index} />);
         return (
           <Fragment>
