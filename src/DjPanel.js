@@ -37,6 +37,7 @@ const DjPanel = () => (
       {({ loading, error, data, startPolling, stopPolling}) => {
         if (loading) return <p>Loading...</p>;
         if (error) return <p />; 
+        if (Object.entries(data).length === 0) return <div/>
         const misc = data.misc;
         const api = data.api;
         return (

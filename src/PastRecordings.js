@@ -54,8 +54,8 @@ const LastPlayed = ({ classes, Row }) => (
       {({loading, error, data, startPolling, stopPolling}) => {
         if (loading) return <p>...</p>;
         if (error) return <p/>;
+        if (Object.entries(data).length === 0) return <div/>
         const past_recordings = data.past_recordings;
-        if (past_recordings.recordings === null) return <div />;
         const list = past_recordings.recordings.map((recording, index) => 
             <Song rec={recording} index={index} classes={classes} Row={Row} key={index} />
         );
