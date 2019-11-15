@@ -42,8 +42,8 @@ const useStyles = makeStyles(theme => ({
 export default function ServerHeader() {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
+    <React.Fragment>
+      <AppBar position="static" className={classes.root}>
         <Toolbar variant="dense">
             <Typography
                 variant="h6"
@@ -70,6 +70,6 @@ export default function ServerHeader() {
         </Toolbar>
         {/* {renderMenu} */}
       </AppBar>
-    </div>
+    </React.Fragment>
   );
 }

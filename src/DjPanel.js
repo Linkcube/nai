@@ -20,7 +20,7 @@ const styles = {
         marginBottom: 10,
         display: 'block',
         marginLeft: 'auto',
-        marginRight: 'auto'
+        marginRight: 'auto',
     },
     container: {
         justifyContent: 'center',
@@ -41,7 +41,7 @@ const DjPanel = () => (
         const api = data.api;
         return (
             <div style={styles.container}>
-                <img src={misc.dj_image_link} alt="dj_pic" style={styles.img} />
+                <img src={misc.dj_image_link} alt="dj_pic" style={styles.img} class="dj-pic" />
                 <Typography gutterBottom variant="h4" component="h2" align="center">
                     Current DJ: {api.dj_name}
                 </Typography>
