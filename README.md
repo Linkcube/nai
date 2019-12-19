@@ -9,6 +9,8 @@ npm install -g serve
 serve -s build
 ```
 
+Mac users may have to include `npx` before the serve command.
+
 Look up the react docs for building from source otherwise.
 
 ## Features
