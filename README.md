@@ -1,5 +1,5 @@
 # nai
-Nora Archiver Interface
+[Nora](https://github.com/Linkcube/Nora) Archiver Interface
 
 ## Usage
 From a release:
