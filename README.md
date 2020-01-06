@@ -1,6 +1,8 @@
 # nai
 [Nora](https://github.com/Linkcube/Nora) Archiver Interface
 
+**Depricated in favor of svelte-radio-interface.**
+
 ## Usage
 From a release:
 
